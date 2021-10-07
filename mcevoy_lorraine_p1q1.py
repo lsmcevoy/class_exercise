@@ -45,7 +45,7 @@ print("""
 Question #4
 What is the largest FISH in the sea?
 A. Whale Shark
-B. Blue Whale
+B. Blue Whales
 C. Giant Manta Ray""")
 answer = input("Choose an option! ")
 if answer == "a":
@@ -55,6 +55,32 @@ elif answer == "A":
 else:
     print("Wrong")
 
+print("""
+Question #5
+What percent of the ocean has been explored??
+A. 5%
+B. 10%
+C. 20%""")
+answer = input("Choose an option! ")
+if answer == "a":
+    print("Correct!")
+elif answer == "A":
+    print("Correct!")
+else:
+    print("Wrong")
+
+print("""
+Final Question
+Do you want to know your results?
+A. Yes
+B. No""")
+answer = input("Choose an option! ")
+if answer == "a":
+    print("Ok!")
+elif answer == "A":
+    print("Ok!")
+else:
+    print("Too bad")
 
 
 
