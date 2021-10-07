@@ -81,8 +81,3 @@ elif answer == "A":
     print("Ok!")
 else:
     print("Too bad")
-
-
-
-
-
