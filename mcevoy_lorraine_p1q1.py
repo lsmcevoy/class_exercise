@@ -29,12 +29,7 @@ else:
 
 # repeat 4 more times with different questions
 
-print("""
-Question #2
-How many hearts do octopus have?
-A. 3 hearts
-B. 6 hearts
-C. 9 hearts""")
+print("\nQuestion #2\nHow many hearts do octopus have?\nA. 3 hearts\nB. 6 hearts\nC. 9 hearts")
 answer2 = input("Choose an option! ")
 if answer2 == "a" or answer2 == "A":
     print("Correct!")
@@ -42,12 +37,7 @@ if answer2 == "a" or answer2 == "A":
 else:
     print("Wrong, the answer is A")
 
-print("""
-Question #3
-How many brains do octopus have??
-A. 3 brains
-B. 6 brains
-C. 9 brains""")
+print("\nQuestion #3\nHow many brains do octopus have?\nA. 3 brains\nB. 6 brains\nC. 9 brains")
 answer3 = input("Choose an option! ")
 if answer3 == "c" or answer3 == "C":
     print("Correct!")
@@ -55,12 +45,7 @@ if answer3 == "c" or answer3 == "C":
 else:
     print("Wrong, the answer is C")
 
-print("""
-Question #4
-What is the largest FISH in the sea?
-A. Whale Shark
-B. Blue Whales
-C. Giant Manta Ray""")
+print("\nQuestion #4\nWhat is the largest FISH in the sea?\nA. Whale Shark\nB. Blue Whales\nC. Giant Manta Ray")
 answer4 = input("Choose an option! ")
 if answer4 == "a" or answer4 == "A":
     print("Correct!")
@@ -68,12 +53,7 @@ if answer4 == "a" or answer4 == "A":
 else:
     print("Wrong, the answer is A")
 
-print("""
-Question #5
-What percent of the ocean has been explored??
-A. 5%
-B. 10%
-C. 20%""")
+print("\nQuestion #5\nWhat percent of the ocean has been explored??\nA. 5%\nB. 10%\nC. 20%")
 answer5 = input("Choose an option! ")
 if answer5 == "a" or answer5 == "A":
     print("Correct!")
