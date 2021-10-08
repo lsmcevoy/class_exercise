@@ -14,7 +14,7 @@ A. Colossal Squid
 B. Blue Whale
 C. Whale Shark""")
 
-# ask for their answer
+# ask for the user's answer
 
 answer1 = input("Choose an option! ")
 
@@ -25,7 +25,7 @@ if answer1 == "b" or answer1 == "B":
     print("Correct!")
     score = score + 1
 else:
-    print("Wrong")
+    print("Wrong, the answer is B.")
 
 # repeat 4 more times with different questions
 
@@ -40,7 +40,7 @@ if answer2 == "a" or answer2 == "A":
     print("Correct!")
     score = score + 1
 else:
-    print("Wrong")
+    print("Wrong, the answer is A")
 
 print("""
 Question #3
@@ -53,7 +53,7 @@ if answer3 == "c" or answer3 == "C":
     print("Correct!")
     score = score + 1
 else:
-    print("Wrong")
+    print("Wrong, the answer is C")
 
 print("""
 Question #4
@@ -66,7 +66,7 @@ if answer4 == "a" or answer4 == "A":
     print("Correct!")
     score = score + 1
 else:
-    print("Wrong")
+    print("Wrong, the answer is A")
 
 print("""
 Question #5
@@ -79,9 +79,10 @@ if answer5 == "a" or answer5 == "A":
     print("Correct!")
     score = score + 1
 else:
-    print("Wrong")
+    print("Wrong, the answer is A")
 
-# ask them if they want their answer. Give it to them anyways if they say no
+# ask them if they want their answer as a joke. Give it to them anyways if they say no
+# don't add to the score because this question doesnt count
 print("""
 Final Question
 Do you want to know your results?
@@ -100,12 +101,12 @@ score_percent = score
 score_percent /= 5
 score_percent *= 100
 
-# print their score. if their score is bigger than 50, they passed
+# print their score. if their score is higher than 50, they passed
 # if its anything else, they failed
 if score_percent > 50:
-    print(f"You passed! Your score is {score_percent}% or {score}/5")
+    print(f"You passed! Your score is {score_percent}% or {score}/5! Good job!")
 else:
-    print(f"Better luck next time. Your score is {score_percent}% or {score}/5")
+    print(f"Uh oh! Better luck next time. Your score is {score_percent}% or {score}/5")
 
 
 
