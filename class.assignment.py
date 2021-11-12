@@ -31,8 +31,9 @@ class Vehicle:
 def vroom(self) -> None:
     print("Vroom" * self.max_speed)
 
-
 """Vroom multiplied by the speed of the vehicle"""
+
+
 
 """2. Create a child/subclass of Vehicle called Bus with the following methods:
 Methods:
