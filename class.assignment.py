@@ -21,7 +21,6 @@ class Vehicle:
         self.capacity = 0
 
     def vroom(self):
-        pass
 
 
 """This a vehicle that has the following 
