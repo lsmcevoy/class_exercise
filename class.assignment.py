@@ -22,7 +22,6 @@ class Vehicle:
 
     def vroom(self):
 
-
 """This a vehicle that has the following 
       name: the vehicle name
       max_speed: the vehicle's maximum speed
